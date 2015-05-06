@@ -20,7 +20,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="omnirom" revision="android-5.1" groups="pdk,tradefed" >
+  <project path="build" name="Axxion-Team-Rebase/android_build" remote="github" revision="pop" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -286,7 +286,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-5.1" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="Axxion-Team-Rebase/android_frameworks_base" remote="github" revision="release" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -396,7 +396,6 @@
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="omnirom" revision="android-5.1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-5.1" />
-  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-5.1" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-5.1" />
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-5.1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
@@ -406,7 +405,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="omnirom" revision="android-5.1" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-5.1" />
+  <project path="packages/apps/Settings" name="Axxion-Team-Rebase/android_packages_apps_Settings" remote="github" revision="pop" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -516,7 +515,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-5.1" />
+  <project path="vendor/axxion" name="Axxion-Team-Rebase/android_vendor_axxion/" remote="github" revision="pop" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-5.1" />
 
 </manifest>
