@@ -1,48 +1,30 @@
-Submitting Patches
-------------------
-Our ROM is open source, and patches are always welcome!
-You can send patches by using these commands:
-
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-5.1
-
-Register at gerrit.omnirom.org and use the username that you registered there in the above command
-
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
-use git commit --amend. Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [OMNI ROM Code Review](https://gerrit.omnirom.org)
-
-
-Getting Started
----------------
-
-To get started with OMNI ROM, you'll need to get
+To get started with Axxion ROM, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the OMNIROM trees, use a command like this:
+To build Axxion you need to first create a directory for the source code using "mkdir: and example would be:
 
-    repo init -u git://github.com/omnirom/android.git -b android-5.1
+    mkdir android/Axxion
+    
+You must the change directory or "cd" so run:
+
+    cd android/Axxion
+    
+To initialize your local repository using the Axxion trees, use a command like this:
+
+    repo init -u git://github.com/Axxion-Team-Rebase/android.git -b pop
+
+    or for omap4 use:
+
+    repo init -u git://github.com/Axxion-Team-Rebase/android.git -b omap
 
 Then to sync up:
 
-    repo sync
+    repo sync -j4
+    
+Or be lazy and run it all in one with:
+
+    mkdir (directory) && cd (directory) && repo int -u git://github.com/Axxion-Team-Rebase/android.git -b (pop/omap) && repo sync -j4
 
 Then to build:
 
-     cd <source-dir>; . build/envsetup.sh; brunch <device_name>
-
-
-If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)
-
-Our official IRC Channels are hosted on Freenode:
-
-[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
-
-[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)
-
+    . build/envsetup.sh && time brunch
