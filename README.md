@@ -1,7 +1,7 @@
 To get started with Axxion ROM, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To build Axxion you need to first create a directory for the source code using "mkdir: and example would be:
+To build Axxion you need to first create a directory for the source code using "mkdir an example would be:
 
     mkdir android/Axxion
     
