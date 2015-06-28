@@ -16,7 +16,7 @@
            fetch="https://github.com/omnirom" />
 
   <remote  name="ax"
-           fetch="https://github.com/Axxion-Team-Rebase" />
+           fetch="https://github.com/Axxion-Team" />
 
   <remote  name="slim"
            fetch="https://github.com/SlimRoms" />
