@@ -11,11 +11,11 @@ You must the change directory or "cd" so run:
     
 To initialize your local repository using the Axxion trees, use a command like this:
 
-    repo init -u git://github.com/Axxion-Team-Rebase/android.git -b pop
+    repo init -u git://github.com/Axxion-Team/android.git -b pop
 
     or for omap4 use:
 
-    repo init -u git://github.com/Axxion-Team-Rebase/android.git -b omap
+    repo init -u git://github.com/Axxion-Team/android.git -b omap
 
 Then to sync up:
 
@@ -23,7 +23,7 @@ Then to sync up:
     
 Or be lazy and run it all in one with:
 
-    mkdir (directory) && cd (directory) && repo int -u git://github.com/Axxion-Team-Rebase/android.git -b (pop/omap) && repo sync -j4
+    mkdir (directory) && cd (directory) && repo int -u git://github.com/Axxion-Team/android.git -b (pop/omap) && repo sync -j4
 
 Then to build:
 
