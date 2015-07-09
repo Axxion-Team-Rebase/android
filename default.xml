@@ -20,9 +20,6 @@
 
   <remote  name="slim"
            fetch="https://github.com/SlimRoms" />
-           
-  <remote  name="bitbucket"
-           fetch="https://bitbucket.org/" />
 
   <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
@@ -48,10 +45,6 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ax" revision="pop" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ax" revision="pop" />
   <project path="vendor/axxion" name="android_vendor_axxion" remote="ax" revision="pop" />
-
-  <!-- UberTC -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UberTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UberTC/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />  
   
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-5.1" groups="pdk" />
 
@@ -475,6 +468,8 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
+-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
+-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
