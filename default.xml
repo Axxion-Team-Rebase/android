@@ -33,7 +33,9 @@
 
   <project path="android" name="android" remote="ax" revision="pop" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-12.1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="ax" revision="pop" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ax" revision="pop" groups="pdk-cw-fs" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="ax" revision="pop" groups="pdk" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="lp5.1" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="ax" revision="pop" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="ax" revision="pop" />
@@ -78,9 +80,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-5.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-5.1" remote="omnirom" groups="pdk" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-5.1" />
